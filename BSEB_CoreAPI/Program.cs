@@ -11,6 +11,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Register ILoginService with its concrete implementation
 builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<IdwnldRegFormService, dwnldRegFormService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
