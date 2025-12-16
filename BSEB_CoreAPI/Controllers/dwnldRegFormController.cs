@@ -20,7 +20,7 @@ namespace BSEB_CoreAPI.Controllers
         public dwnldRegFormController(IdwnldRegFormService dwnldRegFormService, AppDbContext context)
         {
             _dwnldRegFormService = dwnldRegFormService;
-            _context = context;  
+            _context = context;
 
         }
 
@@ -30,7 +30,7 @@ namespace BSEB_CoreAPI.Controllers
         {
             try
             {
-                var faculties= await _context.Faculty_Mst.Where(f=>f.IsActive==true).ToListAsync();
+                var faculties = await _context.Faculty_Mst.Where(f => f.IsActive == true).ToListAsync();
                 return Ok(new { success = true, data = faculties });
                 //return Ok(faculties);
             }
@@ -39,12 +39,12 @@ namespace BSEB_CoreAPI.Controllers
 
                 throw;
             }
-     
+
         }
 
         [AllowAnonymous]
         [HttpPost("dwnldRegForm")]
-        public async Task<IActionResult> dwnldRegForm([FromBody]StudentRequest Stu)
+        public async Task<IActionResult> dwnldRegForm([FromBody] StudentRequest Stu)
         {
             try
             {
@@ -52,7 +52,7 @@ namespace BSEB_CoreAPI.Controllers
                 //{
                 //    Stu.CollegeId == "";
                 //}
-                var result = await _dwnldRegFormService.GetStudentDetails("",Stu.CollegeCode,Stu.StudentName,Stu.faculty.ToString());
+                var result = await _dwnldRegFormService.GetStudentDetails("", Stu.CollegeCode, Stu.StudentName, Stu.faculty.ToString());
                 return Ok(new { success = true, data = result });
 
             }
@@ -60,7 +60,22 @@ namespace BSEB_CoreAPI.Controllers
             {
                 return StatusCode(500, new { success = false, message = "Internal server error" });
             }
-          
+
+        }
+
+        [AllowAnonymous]
+        [HttpPost("InterRegistrationForm")]
+        public async Task<IActionResult> InterRegistrationForm([FromBody] InterRegiRequest interRegi)
+        {
+            try
+            {
+                var result = await _dwnldRegFormService.InterRegistrationForm(interRegi);
+                return Ok(new { success = true, data = result });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { success = false, message = "Internal server error" });
+            }
         }
     }
 }
