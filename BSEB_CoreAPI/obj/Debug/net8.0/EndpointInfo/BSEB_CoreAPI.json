@@ -5,6 +5,49 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/dwnldRegForm/bindfaculty": {
+      "get": {
+        "tags": [
+          "dwnldRegForm"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/dwnldRegForm/dwnldRegForm": {
+      "post": {
+        "tags": [
+          "dwnldRegForm"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/LoginAuth/login": {
       "post": {
         "tags": [
@@ -88,6 +131,28 @@
           "password": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentRequest": {
+        "type": "object",
+        "properties": {
+          "collegeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "collegeCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "faculty": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

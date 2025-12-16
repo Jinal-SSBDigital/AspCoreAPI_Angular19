@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "BSEB_CoreAPI.Controllers.dwnldRegFormController",
+    "Method": "GetFaculty",
+    "RelativePath": "api/dwnldRegForm/bindfaculty",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BSEB_CoreAPI.Controllers.dwnldRegFormController",
+    "Method": "dwnldRegForm",
+    "RelativePath": "api/dwnldRegForm/dwnldRegForm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Stu",
+        "Type": "BSEB_CoreAPI.Model.StudentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BSEB_CoreAPI.Controllers.LoginAuth",
     "Method": "Login",
     "RelativePath": "api/LoginAuth/login",
