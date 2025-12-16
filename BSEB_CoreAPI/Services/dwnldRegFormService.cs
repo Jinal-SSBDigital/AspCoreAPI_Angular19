@@ -38,6 +38,24 @@ namespace BSEB_CoreAPI.Services
             }
         }
 
+        public Task<List<Student_Mst>> InterRegistrationForm(InterRegiRequest InterRegi)
+        {
+            try
+            {
+                //var StudentIds=new SqlParameter("@",Int32.TryParse(Convert.ToInt32(InterRegi.StudentIds)) ? DBNull.Value : InterRegi.StudentIds);
+                //var collegeIdParam = new SqlParameter("@CollegeId", string.IsNullOrWhiteSpace(Ins) ? DBNull.Value : CollegeId);
+                //var collegeIdParam = new SqlParameter("@CollegeId", string.IsNullOrWhiteSpace(CollegeId) ? DBNull.Value : CollegeId);
+
+              
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            //throw new NotImplementedException();
+        }
+
         //public async Task<List<Student_Mst>> GetStudentDetails(string Collegeid, string CollegeCode, string StudentName, string FacultyId)
         //{
         //    //throw new NotImplementedException();
