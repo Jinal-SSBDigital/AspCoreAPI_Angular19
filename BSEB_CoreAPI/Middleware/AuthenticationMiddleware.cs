@@ -41,7 +41,11 @@ namespace BSEB_CoreAPI.Middleware
                 await _next(context);
                 return;
             }
-          
+            if (path.Contains("/api/dwnldregform/interregistrationform"))
+            {
+                await _next(context);
+                return;
+            }
 
             // ...existing auth header checks...
             var token = context.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
