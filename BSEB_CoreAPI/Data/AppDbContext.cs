@@ -13,6 +13,9 @@ namespace BSEB_CoreAPI.Data
         public DbSet<CollegeMst> CollegeMst { get; set; }
         public DbSet<Student_Mst> Student_Mst { get; set; }
         public DbSet<Faculty_Mst> Faculty_Mst { get; set; }
+        public DbSet<SubjectPaperDto> SubjectPaperEntities { get; set; }
+        public DbSet<StudentInterRegiSpDto> studentInterRegiSps { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
            
@@ -21,7 +24,10 @@ namespace BSEB_CoreAPI.Data
             modelBuilder.Entity<CollegeMst>().HasNoKey();
             modelBuilder.Entity<LoginUserInfo>().HasNoKey();
             modelBuilder.Entity<Student_Mst>().HasKey(x => x.StudentID);
+            //modelBuilder.Entity<SubjectPaperDto>().HasKey(x => x.SubjectId);
             modelBuilder.Entity<Faculty_Mst>().HasNoKey();
+            modelBuilder.Entity<SubjectPaperDto>().HasNoKey();
+            modelBuilder.Entity<StudentInterRegiSpDto>().HasNoKey();
 
             base.OnModelCreating(modelBuilder);
         }
