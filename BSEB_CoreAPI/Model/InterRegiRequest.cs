@@ -2,9 +2,9 @@
 {
     public class InterRegiRequest
     {
-        public List<int> StudentIds { get; set; } = new();
+        public List<int>? StudentIds { get; set; } = new();
 
-        public int CollegeId { get; set; }
-        public int FacultyId { get; set; }
+        public int? CollegeId { get; set; }
+        public int? FacultyId { get; set; }
      }
 }
