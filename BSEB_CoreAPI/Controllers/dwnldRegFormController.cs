@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using QuestPDF.Fluent;
 using System.Data.Entity;
 
 namespace BSEB_CoreAPI.Controllers
@@ -65,12 +66,20 @@ namespace BSEB_CoreAPI.Controllers
 
         [AllowAnonymous]
         [HttpPost("InterRegistrationForm")]
-        public async Task<IActionResult> InterRegistrationForm([FromBody] InterRegiRequest interRegi)
+        public async Task<IActionResult> InterRegistrationForm([FromForm] InterRegiRequest interRegi)
         {
             try
             {
                 var result = await _dwnldRegFormService.InterRegistrationForm(interRegi);
-                return Ok(new { success = true, data = result });
+                var pdf = new InterRegistrationPdf(result);
+                var pdfBytes = pdf.GeneratePdf();
+
+                return File(
+                    pdfBytes,
+                    "application/pdf",
+                    "InterRegistrationForm.pdf"
+                );
+                //return Ok(new { success = true, data = result });
             }
             catch (Exception ex)
             {
