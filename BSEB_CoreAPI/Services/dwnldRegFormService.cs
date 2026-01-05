@@ -38,45 +38,84 @@ namespace BSEB_CoreAPI.Services
             }
         }
 
-        public Task<List<Student_Mst>> InterRegistrationForm(InterRegiRequest InterRegi)
+        public async Task<List<StudentWithSubjectsDto>> InterRegistrationForm(InterRegiRequest InterRegi)
         {
             try
             {
-                //var StudentIds=new SqlParameter("@",Int32.TryParse(Convert.ToInt32(InterRegi.StudentIds)) ? DBNull.Value : InterRegi.StudentIds);
-                //var collegeIdParam = new SqlParameter("@CollegeId", string.IsNullOrWhiteSpace(Ins) ? DBNull.Value : CollegeId);
-                //var collegeIdParam = new SqlParameter("@CollegeId", string.IsNullOrWhiteSpace(CollegeId) ? DBNull.Value : CollegeId);
+                var result= new List<StudentWithSubjectsDto>();
 
-              
+                // ---------- SUBJECTS ----------
+                var Subjects = await _context.SubjectPaperEntities.FromSqlRaw("EXEC sp_GetSubjectPapersByFacultyAndGroup @FacultyId",new SqlParameter("@FacultyId",InterRegi.FacultyId)).ToListAsync();
+
+                // ---------- STUDENT ----------
+                foreach (var StudentId in InterRegi.StudentIds)
+                {
+                    var students = await _context.studentInterRegiSps.FromSqlRaw("EXEC GetStudentInterRegiFormData @StudentID,@CollegeId,@FacultyId",
+                    new SqlParameter("@StudentID", StudentId),
+                     new SqlParameter("@CollegeId", InterRegi.CollegeId),
+                    new SqlParameter("@FacultyId", InterRegi.FacultyId)).ToListAsync();
+
+                    result.AddRange(students.Select(s => new StudentWithSubjectsDto
+                    {
+                       
+                        Student = new StudentInterRegiSpDto
+                        {
+                            StudentName = s.StudentName,
+                            FatherName = s.FatherName,
+                            MotherName = s.MotherName,
+                            DOB = s.DOB,
+                            NewDOB = s.NewDOB,
+                            CategoryName = s.CategoryName,
+                            FacultyId = s.FacultyId,
+                            ApaarId = s.ApaarId,
+                            BSEB_Unique_ID = s.BSEB_Unique_ID,
+                            FormDownloaded = s.FormDownloaded,
+                            FacultyName = s.FacultyName,
+                            OFSSCAFNo = s.OFSSCAFNo,
+                            CollegeCode = s.CollegeCode,
+                            CollegeName = s.CollegeName,
+                            DistrictName = s.DistrictName,
+                            MatricRollCode = s.MatricRollCode,
+                            MatricRollNumber = s.MatricRollNumber,
+                            MatricPassingYear = s.MatricPassingYear,
+                            Gender = s.Gender,
+                            MatricBoardName = s.MatricBoardName,
+                            CasteCategory = s.CasteCategory,
+                            DifferentlyAbled = s.DifferentlyAbled,
+                            AadharNumber = s.AadharNumber,
+                            Fk_NationalityId = s.Fk_NationalityId,
+                            Religion = s.Religion,
+                            Nationality = s.Nationality,
+                            SubDivisionName = s.SubDivisionName,
+                            MobileNo = s.MobileNo,
+                            EmailId = s.EmailId,
+                            StudentAddress = s.StudentAddress,
+                            AreaName = s.AreaName,
+                            MaritalStatus = s.MaritalStatus,
+                            StudentBankAccountNo = s.StudentBankAccountNo,
+                            BankBranchName = s.BankBranchName,
+                            IFSCCode = s.IFSCCode,
+                            IdentificationMark1 = s.IdentificationMark1,
+                            IdentificationMark2 = s.IdentificationMark2,
+                            MediumName = s.MediumName,
+                            StudentPhotoPath = s.StudentPhotoPath,
+                            StudentSignaturePath = s.StudentSignaturePath
+                        },
+                        Subjects = Subjects
+                    }));
+                }
+             
+
+                return result;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 throw;
             }
-            //throw new NotImplementedException();
+    
         }
 
-        //public async Task<List<Student_Mst>> GetStudentDetails(string Collegeid, string CollegeCode, string StudentName, string FacultyId)
-        //{
-        //    //throw new NotImplementedException();
-        //    try
-        //    {
-        //        var CollegeIdPr=new SqlParameter("@CollegeId", Collegeid);
-        //        var CollegCodePr=new SqlParameter("@CollegeCode", (object?)CollegeCode ?? DBNull.Value);
-        //        var StudentNamePr= new SqlParameter("@StudentName", (object?)StudentName ?? DBNull.Value);
-        //        var FacultyIdPr = new SqlParameter("@FacultyId", FacultyId);
-        //        var SubCategory = new SqlParameter("@SubCategory", DBNull.Value);
-
-        //        //var result = _context.StudentDetails.FromSqlRaw("EXEC sp_GetStudentDetails @CollegeId, @CollegeCode, @StudentName, @FacultyId,@SubCategory", CollegeIdPr, CollegCodePr, StudentNamePr, FacultyIdPr, SubCategory).AsEnumerable().FirstOrDefault();
-        //        var result = await _context.Student_Mst.FromSqlRaw("EXEC sp_GetStudentDetails @CollegeId, @CollegeCode, @StudentName, @FacultyId,@SubCategory", CollegeIdPr, CollegCodePr, StudentNamePr, FacultyIdPr, SubCategory).ToListAsync();
-
-        //        return result;
-        //    }
-        //    catch (Exception ex)
-        //    {
-
-        //        throw;
-        //    }
-        //}
+       
     }
 }
