@@ -2,8 +2,12 @@ using BSEB_CoreAPI.Data;
 using BSEB_CoreAPI.Services;
 using Microsoft.EntityFrameworkCore;
 using BSEB_CoreAPI.Middleware;
+using QuestPDF.Infrastructure;
+
 
 var builder = WebApplication.CreateBuilder(args);
+QuestPDF.Settings.License = LicenseType.Community;
+
 
 // -------------------- Services --------------------
 builder.Services.AddDbContext<AppDbContext>(options =>
