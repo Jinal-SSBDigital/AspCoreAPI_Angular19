@@ -3,28 +3,31 @@
   "WorkspaceRootPath": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\controllers\\dwnldregformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:controllers\\dwnldregformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\model\\student_mst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:model\\student_mst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\8f129005-6126-4f32-b65c-62fd36b0a5b7_BsebResult_MVC.zip.BsebResult_MVC.zip\\BsebResult\\Data\\BsebResultContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\services\\idwnldregformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:services\\idwnldregformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\model\\interregirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:model\\interregirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\controllers\\loginauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:controllers\\loginauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\services\\dwnldregformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:services\\dwnldregformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\middleware\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:middleware\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|c:\\jinal\\git\\aspcoreapi_angular19\\bseb_coreapi\\services\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{530C7C21-987E-45E7-B922-6BAB2DD262EB}|BSEB_CoreAPI.csproj|solutionrelative:services\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +37,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InterRegiRequest.cs",
-              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Model\\InterRegiRequest.cs",
-              "RelativeDocumentMoniker": "Model\\InterRegiRequest.cs",
-              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Model\\InterRegiRequest.cs",
-              "RelativeToolTip": "Model\\InterRegiRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T09:50:53.881Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Student_Mst.cs",
-              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Model\\Student_Mst.cs",
-              "RelativeDocumentMoniker": "Model\\Student_Mst.cs",
-              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Model\\Student_Mst.cs",
-              "RelativeToolTip": "Model\\Student_Mst.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAWAAAAAAAAAA==",
+              "Title": "BsebResultContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\8f129005-6126-4f32-b65c-62fd36b0a5b7_BsebResult_MVC.zip.BsebResult_MVC.zip\\BsebResult\\Data\\BsebResultContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Admin\\AppData\\Local\\Temp\\8f129005-6126-4f32-b65c-62fd36b0a5b7_BsebResult_MVC.zip.BsebResult_MVC.zip\\BsebResult\\Data\\BsebResultContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\8f129005-6126-4f32-b65c-62fd36b0a5b7_BsebResult_MVC.zip.BsebResult_MVC.zip\\BsebResult\\Data\\BsebResultContext.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Admin\\AppData\\Local\\Temp\\8f129005-6126-4f32-b65c-62fd36b0a5b7_BsebResult_MVC.zip.BsebResult_MVC.zip\\BsebResult\\Data\\BsebResultContext.cs [Read Only]",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:12:51.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T05:11:32.351Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dwnldRegFormController.cs",
-              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Controllers\\dwnldRegFormController.cs",
-              "RelativeDocumentMoniker": "Controllers\\dwnldRegFormController.cs",
-              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Controllers\\dwnldRegFormController.cs",
-              "RelativeToolTip": "Controllers\\dwnldRegFormController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwEMAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T05:08:46.119Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T09:17:49.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Title": "AuthenticationMiddleware.cs",
+              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Middleware\\AuthenticationMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\AuthenticationMiddleware.cs",
+              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Middleware\\AuthenticationMiddleware.cs",
+              "RelativeToolTip": "Middleware\\AuthenticationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T07:31:47.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T05:01:45.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginAuth.cs",
+              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Controllers\\LoginAuth.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginAuth.cs",
+              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Controllers\\LoginAuth.cs",
+              "RelativeToolTip": "Controllers\\LoginAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T09:17:27.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Services\\ILoginService.cs",
+              "RelativeDocumentMoniker": "Services\\ILoginService.cs",
+              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Services\\ILoginService.cs",
+              "RelativeToolTip": "Services\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T09:15:58.678Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "dwnldRegFormService.cs",
-              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Services\\dwnldRegFormService.cs",
-              "RelativeDocumentMoniker": "Services\\dwnldRegFormService.cs",
-              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Services\\dwnldRegFormService.cs",
-              "RelativeToolTip": "Services\\dwnldRegFormService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD4AAAAFAAAAAAAAAA==",
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Services\\LoginService.cs",
+              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Services\\LoginService.cs",
+              "RelativeToolTip": "Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T06:29:47.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T09:15:48.665Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IdwnldRegFormService.cs",
-              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Services\\IdwnldRegFormService.cs",
-              "RelativeDocumentMoniker": "Services\\IdwnldRegFormService.cs",
-              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Services\\IdwnldRegFormService.cs",
-              "RelativeToolTip": "Services\\IdwnldRegFormService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Jinal\\Git\\AspCoreAPI_Angular19\\BSEB_CoreAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T06:16:41.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T11:41:16.825Z"
             }
           ]
         }
