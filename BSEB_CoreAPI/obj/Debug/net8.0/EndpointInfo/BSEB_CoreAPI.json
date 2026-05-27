@@ -48,6 +48,55 @@
         }
       }
     },
+    "/api/dwnldRegForm/InterRegistrationForm": {
+      "post": {
+        "tags": [
+          "dwnldRegForm"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "StudentIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
+                  },
+                  "CollegeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FacultyId": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "StudentIds": {
+                  "style": "form"
+                },
+                "CollegeId": {
+                  "style": "form"
+                },
+                "FacultyId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/LoginAuth/login": {
       "post": {
         "tags": [
